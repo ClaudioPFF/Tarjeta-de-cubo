@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 18, 45, 0.976);
+}
+
+.container {
+    margin-top: 100px;
+    width: 300px;
+    height: 470px;
+    border-radius: 15px;
+    background-color: rgba(22, 22, 57, 0.844);
+    color: rgba(122, 129, 159, 0.957);
+    align-items: start;
+    text-align: start;
+    padding: 10px;
+    box-shadow: 0px 5px 20px black;
+    transition: 4s;
+    
+}
+
+.container:hover {
+   
+   transform: scale(1.2);
+   transition: 3s;
+}
+
+.card {
+ margin-top: 20px;margin-left: 20px;
+}
+
+.card img {
+    width: 250px;
+    height: 230px;
+    border-radius: 10px;
+    
+}
+
+#pin {
+    color: white;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+}
+
+.point {
+    color: cyan;
+    margin-top: 25px;
+    
+}
+
+.point img {
+    margin-right: 5px;
+}
+
+.porter {
+   position: relative;
+   bottom: 38px;
+   left: 150px;
+}
+
+.peux {
+ position: relative;
+ bottom: 15px;
+ align-items: center;
+ display: flex;
+}
+
+.peux img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+span {
+    color: white;
+}
